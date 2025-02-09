@@ -1,50 +1,55 @@
-# React + TypeScript + Vite
+Simple Chat App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple real-time chat application built with React (Vite), Firebase, and Tailwind CSS. The app allows users to:
 
-Currently, two official plugins are available:
+Sign in with a Google account.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Choose from four chat rooms.
 
-## Expanding the ESLint configuration
+Send and receive messages in real time.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+📦 Tech Stack
 
-- Configure the top-level `parserOptions` property like this:
+React (Vite) – Fast frontend framework.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Firebase – Authentication, Firestore for messages, and Storage for profile pictures.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Tailwind CSS – Styling.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+🚀 Getting Started
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1️⃣ Install Dependencies
+
+yarn install  # or npm install
+
+2️⃣ Start the Development Server
+
+yarn dev  # or npm run dev 
+
+Your app should now be running at http://localhost:5173/ 🎉
+
+📝 Features
+
+Authentication: Users must sign in with Google.
+
+Chat Rooms: Four pre-defined chat rooms.
+
+Real-Time Messaging: Messages update instantly.
+
+📌 Future Enhancements
+
+Allow users to create custom chat rooms.
+
+Add private messaging.
+
+Improve UI/UX.
+
+🤝 Contributing
+
+Feel free to fork and submit a pull request. Contributions are welcome! 😊
+
+📜 License
+
+This project is licensed under the MIT License.
+
+ 
