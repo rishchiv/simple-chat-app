@@ -1,55 +1,61 @@
-Simple Chat App
+# Simple Chat App
 
-This is a simple real-time chat application built with React (Vite), Firebase, and Tailwind CSS. The app allows users to:
+This is a simple real-time chat application built with **React (Vite)**, **Firebase**, and **Tailwind CSS**. The app allows users to:
 
-Sign in with a Google account.
+- Sign in with a **Google account**.
+- Choose from **four chat rooms**.
+- Send and receive messages in real time.
 
-Choose from four chat rooms.
+## 📦 Tech Stack
 
-Send and receive messages in real time.
+- **React (Vite)** – Fast frontend framework.
+- **Firebase** – Authentication, Firestore for messages, and Storage for profile pictures.
+- **Tailwind CSS** – Styling.
 
-📦 Tech Stack
+---
 
-React (Vite) – Fast frontend framework.
+## 🚀 Getting Started
 
-Firebase – Authentication, Firestore for messages, and Storage for profile pictures.
+### 1️⃣ Install Dependencies
 
-Tailwind CSS – Styling.
-
-🚀 Getting Started
-
-1️⃣ Install Dependencies
-
+```sh
 yarn install  # or npm install
+```
 
-2️⃣ Start the Development Server
+### 2️⃣ Start the Development Server
 
+```sh
 yarn dev  # or npm run dev 
+```
 
-Your app should now be running at http://localhost:5173/ 🎉
+Your app should now be running at `http://localhost:5173/` 🎉
 
-📝 Features
+---
 
-Authentication: Users must sign in with Google.
+## 📝 Features
 
-Chat Rooms: Four pre-defined chat rooms.
+- **Authentication**: Users must sign in with **Google**.
+- **Chat Rooms**: Four pre-defined chat rooms.
+- **Real-Time Messaging**: Messages update instantly.
 
-Real-Time Messaging: Messages update instantly.
+---
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 
-Allow users to create custom chat rooms.
+- Allow users to create **custom chat rooms**.
+- Add **private messaging**.
+- Improve **UI/UX**.
 
-Add private messaging.
+---
 
-Improve UI/UX.
-
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork and submit a pull request. Contributions are welcome! 😊
 
-📜 License
+---
 
-This project is licensed under the MIT License.
+## 📜 License
+
+This project is licensed under the **MIT License**.
 
  
